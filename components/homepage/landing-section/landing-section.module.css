@@ -1,0 +1,17 @@
+.landingSection{
+    width: 99vwvw;
+    height: 900px;
+    background:  linear-gradient(180deg, #68A1E3 0%, rgba(104, 227, 183, 0.48) 63.02%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftContent{
+
+}
+
+.rightContent{
+
+}
