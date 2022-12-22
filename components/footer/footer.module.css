@@ -1,0 +1,9 @@
+.footer{
+    background-color: darkslategray;
+}
+.content{
+    text-align: center;
+    font-weight: bold;
+    padding: 0.25rem 1.5rem;
+    color: wheat
+}
