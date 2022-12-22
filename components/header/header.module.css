@@ -1,3 +1,8 @@
 .header{
-    background-color: rgba(var(--));
+    background-color: rgba(#30508a, 0.3);
+}
+
+.ribbon{
+    height: 5px;
+    background-color: cornflowerblue;
 }
