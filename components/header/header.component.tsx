@@ -48,7 +48,7 @@ function Header() {
           >
             <ul className="navbar-nav">
               {HeaderInfo.map((item) => (
-                <HeaderItem item={item} />
+                <HeaderItem key={item.label} item={item} />
               ))}
             </ul>
           </div>
