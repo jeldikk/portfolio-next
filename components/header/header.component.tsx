@@ -1,7 +1,6 @@
 import styles from "./header.module.css";
 import Link from "next/link";
-import { useRouter } from "next/router";
-import { IHeaderItem } from "./header.model";
+import { IHeaderItem } from "../../models/header.model";
 import HeaderItem from "./header-item.component";
 
 const HeaderInfo: IHeaderItem[] = [
@@ -25,23 +24,12 @@ const HeaderInfo: IHeaderItem[] = [
 
 function Header() {
   return (
-    <header className={styles.header}>
-      <nav className="navbar navbar-expand-lg navbar-light">
+    <header className={`${styles.header}`}>
+      <nav className="navbar navbar-expand-md navbar-light">
         <div className="container">
-          <Link className="navbar-brand fw-bold" href="#">
+          <Link className="navbar-brand fw-bold" href="/">
             Mr KK
           </Link>
-          {/* <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button> */}
           <div
             className="collapse navbar-collapse justify-content-center"
             id="navbarNav"

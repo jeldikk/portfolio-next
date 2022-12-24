@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { IHeaderItem } from "./header.model";
+import { IHeaderItem } from "../../models/header.model";
 
 interface HeaderItemProps {
   item: IHeaderItem;
