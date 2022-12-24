@@ -17,7 +17,6 @@ function LeftLandingSectionContent() {
         Cloud Enthusiast. Who loves to Learn New Technologies & Develop
         applications for Friends, Fun & Food.
       </p>
-      <div className={styles.quickLinks}></div>
     </div>
   );
 }
