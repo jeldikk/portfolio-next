@@ -1,5 +1,13 @@
+import Head from "next/head";
+
 function SkillsPage() {
-  return <div>Skills Page is here</div>;
+  return (
+    <>
+      <Head>
+        <title>Skills - jeldikk :: J Kamal Kumar</title>
+      </Head>
+    </>
+  );
 }
 
 export default SkillsPage;

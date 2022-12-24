@@ -1,7 +1,14 @@
+import Head from "next/head";
 import styles from "../styles/Resume.module.css";
 
 function ResumePage() {
-  return <div>Resume Page is here</div>;
+  return (
+    <>
+      <Head>
+        <title>Resume - jeldikk :: J Kamal Kumar</title>
+      </Head>
+    </>
+  );
 }
 
 export default ResumePage;

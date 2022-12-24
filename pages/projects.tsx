@@ -1,5 +1,13 @@
+import Head from "next/head";
+
 function ProjectsPage() {
-  return <div>Project Page is here</div>;
+  return (
+    <>
+      <Head>
+        <title>Project - jeldikk :: J Kamal Kumar</title>
+      </Head>
+    </>
+  );
 }
 
 export default ProjectsPage;
