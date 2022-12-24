@@ -1,8 +1,10 @@
 .header{
-    background-color: rgba(#30508a, 0.3);
+    background-color: rgba(70, 131, 180, 0.5);
+    position: sticky;
+    top: 0px;
 }
 
 .ribbon{
     height: 5px;
-    background-color: cornflowerblue;
+    background-color: brown;
 }

@@ -1,5 +1,29 @@
 .container{
+    position: relative;
     height: 100vh;
     width: 100%;
-    border: 1px solid red;
+}
+
+.backgroundImageContainer{
+    position: absolute;
+    /* top: 0;
+    right: 0; */
+    width: 100%;
+    height: 100%;
+}
+
+.backgroundImageOverlay{
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.3);
+    width: 100%;
+    height: 100vh;
+}
+
+.textContentContainer{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

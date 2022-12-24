@@ -1,0 +1,26 @@
+.container{
+
+}
+
+.avatarImage{
+    width: 300px;
+    height: 300px;
+    border: 10px solid black;
+    border-radius: 50%;
+}
+
+
+.i-am{
+    margin: 1.25rem 0.25rem;
+}
+
+.name{
+    letter-spacing: 3rem;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.description{
+    font-style: oblique;
+    font-size: 1.3rem;
+}
