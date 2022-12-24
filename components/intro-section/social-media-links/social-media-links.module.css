@@ -1,0 +1,21 @@
+.container{
+    /* padding-top: 3rem; */
+}
+
+.title{
+    font-size: .75rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.iconList{
+    /* display: ; */
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+}
+
+.iconList i{
+    margin-right: 1.5rem;
+    font-size: 2.5rem;;
+}
