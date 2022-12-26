@@ -16,7 +16,14 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Component {...pageProps} />
+      <>
+        <div className="alert alert-danger text-center">
+          The website is under development. I am working on screen design and
+          implementation during the spare time. Pushing myself to complete the
+          site as soon as possible.
+        </div>
+        <Component {...pageProps} />
+      </>
     </Layout>
   );
 }
