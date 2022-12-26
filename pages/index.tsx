@@ -4,6 +4,7 @@ import { Inter } from "@next/font/google";
 import styles from "../styles/Home.module.css";
 import LandingSection from "../components/landing-section/landing-section.component";
 import IntroductionSection from "../components/intro-section/intro-section.component";
+import SkillsSection from "../components/skills-section/skills-section.component";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       </Head>
       <LandingSection />
       <IntroductionSection />
+      <SkillsSection />
     </>
   );
 }
