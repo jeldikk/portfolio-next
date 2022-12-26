@@ -7,7 +7,7 @@ function IntroductionSection() {
   return (
     <section className={styles.container}>
       <h1 className={styles.title}>Introduction</h1>
-      <div className="container mt-3">
+      <div className="container my-3">
         <div className="row">
           <div className="col-md-4">
             <figure className="figure">
