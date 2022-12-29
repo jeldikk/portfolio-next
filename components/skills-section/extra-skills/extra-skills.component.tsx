@@ -19,19 +19,19 @@ function ExtraSkills() {
         <span>
           <SiTypescript
             size={ITEM_SIZE}
-            title="add more fun to javascript with new features"
+            title="Typescript: add more fun to javascript with new features"
           />
         </span>
         <span>
           <SiFirebase
             size={ITEM_SIZE}
-            title="Google's unique way to develop mobile and web apps seamless"
+            title="Firebase: Google's unique way to develop mobile and web apps seamless"
           />
         </span>
         <span>
           <SiMarkdown
             size={ITEM_SIZE}
-            title="speacial syntax for making documentations on github"
+            title="Markdown: speacial syntax for making documentations on github"
           />
         </span>
         <span>
@@ -43,19 +43,19 @@ function ExtraSkills() {
         <span>
           <SiElectron
             size={ITEM_SIZE}
-            title="Develop desktop applications using frontend frameworks and nodejs/javascript"
+            title="Electron: Develop desktop applications using frontend frameworks and nodejs/javascript"
           />
         </span>
         <span>
           <SiMongodb
             size={ITEM_SIZE}
-            title="a NoSQL database; well suits with nodejs web apps"
+            title="MongoDB: a NoSQL database; well suits with nodejs web apps"
           />
         </span>
         <span>
           <SiDocker
             size={ITEM_SIZE}
-            title="useful for the world of virtualization and containerization"
+            title="Docker: useful for the world of virtualization and containerization"
           />
         </span>
       </div>

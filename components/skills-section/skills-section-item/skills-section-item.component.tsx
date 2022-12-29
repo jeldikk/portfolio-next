@@ -26,14 +26,6 @@ function SkillsSectionItemComponent({ item }: ISkillsSectionItemProps) {
         <li className="list-group-item">{item.rating}</li>
         {/* <li className="list-group-item">isActive</li> */}
       </ul>
-      {/* <div className="card-body">
-        <a href="#" className="card-link">
-          Card Link
-        </a>
-        <a href="#" className="card-link">
-          Another Link
-        </a>
-      </div> */}
     </div>
   );
 }
