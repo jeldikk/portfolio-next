@@ -1,0 +1,14 @@
+.extraSkills{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.extraSkills span{
+    padding: 0.15rem;
+    margin-left: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}

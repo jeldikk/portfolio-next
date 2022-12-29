@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import { SkillsSectionItem } from "../../models/skills-section.model";
+import ExtraSkills from "./extra-skills/extra-skills.component";
 import SkillsSectionItemComponent from "./skills-section-item/skills-section-item.component";
-// import SkillsSectionItem from "./skills-section-item/skills-section-item.component";
 import styles from "./skills-section.module.css";
 
 const data: SkillsSectionItem[] = [
@@ -94,13 +94,14 @@ function SkillsSection() {
             </div>
           ))}
         </div>
-        <button
+        <ExtraSkills />
+        {/* <button
           type="button"
           className="btn btn-primary"
           onClick={navigateToSkillsPage}
         >
           Click To Know More ...
-        </button>
+        </button> */}
       </div>
     </section>
   );

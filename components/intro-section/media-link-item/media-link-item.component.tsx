@@ -8,7 +8,7 @@ interface IMediaLinkItemProps {
 function MediaLinkItem({ item }: IMediaLinkItemProps) {
   return (
     <div className={styles.container} title={item.label}>
-      <i className={`bi ${item.icon}`}></i>
+      {item.icon}
     </div>
   );
 }
