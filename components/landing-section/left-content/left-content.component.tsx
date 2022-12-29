@@ -1,6 +1,30 @@
 import styles from "./left-content.module.css";
 import profileAvatar from "../../../public/images/profile-avatar.jpg";
 import Image from "next/image";
+import NameLetter from "../name-letter/name-letter.component";
+
+const nameText = [
+  {
+    letter: "K",
+    color: "#FF0A71",
+  },
+  {
+    letter: "A",
+    color: "#D90BC3",
+  },
+  {
+    letter: "M",
+    color: "#C000F0",
+  },
+  {
+    letter: "A",
+    color: "#7A0BD9",
+  },
+  {
+    letter: "L",
+    color: "#4A01FF",
+  },
+];
 
 function LeftLandingSectionContent() {
   return (
@@ -11,7 +35,11 @@ function LeftLandingSectionContent() {
         alt="profile avatar image"
       />
       <h2 className={`display-1 ${styles["i-am"]}`}>I AM</h2>
-      <div className={styles.name}>KAMAL</div>
+      <div className={styles.name}>
+        {nameText.map((item) => (
+          <NameLetter letter={item.letter} color={item.color} />
+        ))}
+      </div>
       <p className={styles.description}>
         A Self taught programmer, Senior UI Developer & Aspiring Full Stack
         Cloud Enthusiast. Who loves to Learn New Technologies & Develop

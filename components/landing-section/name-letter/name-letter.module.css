@@ -1,0 +1,17 @@
+.nameLetter{
+    padding: 0.1rem 0.75rem;
+    /* height: 100px; */
+    border: 3px solid black;
+    margin: auto 0.5rem;
+    color: white;
+
+    font-size: 5rem;
+    font-weight: bold;
+    /* text-shadow: 5px 5px 5px gold; */
+    border-radius: 5px;
+}
+
+.nameLetter:hover{
+    cursor: default;
+    transform: scale(1.25);
+}
