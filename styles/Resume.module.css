@@ -1,0 +1,82 @@
+.titleBar{
+    margin-top: 0.5rem;
+    padding: 0.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.466);
+    
+}
+
+.resumeContainer{
+    margin: 1rem auto;
+    /* height: calc(100vh - 191px); */
+    /* box-shadow: 5px 5px 5px indianred; */
+    border: 1px solid gray;
+    border-radius: 10px;
+    /* overflow-y: auto; */
+}
+
+.resumePaper{
+    position: relative;
+}
+.resumeBackground{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.header{
+    padding: 3rem 2rem;
+    background-color: blue;
+    text-align: right;
+    color: white;;
+}
+
+/* .footer{
+    height: 20px;
+    background-color: blue;
+} */
+
+.resumeContent{
+    position: relative;
+    z-index: 1024;
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+}
+
+.resumeLeftContent{
+    /* text-align: center; */
+    padding: 2rem 4rem;
+}
+
+.resumeRightContent{
+    padding: 300px 2rem 4rem 2rem;
+}
+
+.profileImageWrapper{
+    /* padding: 2rem; */
+    text-align: center;
+    /* border: 2px solid blue; */
+    /* border-radius: 3px solid blue; */
+}
+
+.profileImage{
+    border-radius: 50%;
+    /* border-width: 5px solid blue; */
+}
+
+
+.professionalSkills{
+
+}
+
+.educationBackground{
+
+}
+
+
+
+
+

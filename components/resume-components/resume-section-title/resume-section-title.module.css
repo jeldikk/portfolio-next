@@ -1,0 +1,17 @@
+.resumeSectionTitle{
+    padding: 0.5rem 0;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.title{
+    color: blue;
+}
+
+.bottomLine{
+    /* margin: 0.75rem 0; */
+    width: 40%;
+    color: blue;
+    border-width: 3px;
+    opacity: 0.8;
+}
