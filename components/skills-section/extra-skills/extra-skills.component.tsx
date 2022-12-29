@@ -17,25 +17,46 @@ function ExtraSkills() {
       <h3 className="text-center">And also ...</h3>
       <div className={styles.extraSkills}>
         <span>
-          <SiTypescript size={ITEM_SIZE} />
+          <SiTypescript
+            size={ITEM_SIZE}
+            title="add more fun to javascript with new features"
+          />
         </span>
         <span>
-          <SiFirebase size={ITEM_SIZE} />
+          <SiFirebase
+            size={ITEM_SIZE}
+            title="Google's unique way to develop mobile and web apps seamless"
+          />
         </span>
         <span>
-          <SiMarkdown size={ITEM_SIZE} />
+          <SiMarkdown
+            size={ITEM_SIZE}
+            title="speacial syntax for making documentations on github"
+          />
         </span>
         <span>
-          <SiGithub size={ITEM_SIZE} />
+          <SiGithub
+            size={ITEM_SIZE}
+            title="Github: source code versioning system for large teams"
+          />
         </span>
         <span>
-          <SiElectron size={ITEM_SIZE} />
+          <SiElectron
+            size={ITEM_SIZE}
+            title="Develop desktop applications using frontend frameworks and nodejs/javascript"
+          />
         </span>
         <span>
-          <SiMongodb size={ITEM_SIZE} />
+          <SiMongodb
+            size={ITEM_SIZE}
+            title="a NoSQL database; well suits with nodejs web apps"
+          />
         </span>
         <span>
-          <SiDocker size={ITEM_SIZE} />
+          <SiDocker
+            size={ITEM_SIZE}
+            title="useful for the world of virtualization and containerization"
+          />
         </span>
       </div>
     </>
