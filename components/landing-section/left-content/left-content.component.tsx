@@ -37,7 +37,11 @@ function LeftLandingSectionContent() {
       <h2 className={`display-1 ${styles["i-am"]}`}>I AM</h2>
       <div className={styles.name}>
         {nameText.map((item) => (
-          <NameLetter letter={item.letter} color={item.color} />
+          <NameLetter
+            key={item.letter}
+            letter={item.letter}
+            color={item.color}
+          />
         ))}
       </div>
       <p className={styles.description}>
