@@ -98,3 +98,9 @@ a {
     color-scheme: dark;
   }
 }
+
+@media print{
+  .alert{
+    display: none;
+  }
+}

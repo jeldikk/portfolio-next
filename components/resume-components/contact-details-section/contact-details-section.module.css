@@ -1,0 +1,24 @@
+.contactDetailsSection{
+
+}
+
+.contactDetails{
+
+}
+
+.contactIcon{
+    font-size: 30px;
+    margin: 5px;
+}
+
+@media print {
+
+    .contactDetailsSection{
+        margin-top: 10pt;
+    }
+
+    .contactIcon{
+        font-size: 12pt;
+    }
+    
+}

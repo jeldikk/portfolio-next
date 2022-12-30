@@ -10,11 +10,8 @@
 
 .resumeContainer{
     margin: 1rem auto;
-    /* height: calc(100vh - 191px); */
-    /* box-shadow: 5px 5px 5px indianred; */
     border: 1px solid gray;
     border-radius: 10px;
-    /* overflow-y: auto; */
 }
 
 .resumePaper{
@@ -27,17 +24,7 @@
     left: 0;
 }
 
-.header{
-    padding: 3rem 2rem;
-    background-color: blue;
-    text-align: right;
-    color: white;;
-}
 
-/* .footer{
-    height: 20px;
-    background-color: blue;
-} */
 
 .resumeContent{
     position: relative;
@@ -56,27 +43,69 @@
 }
 
 .profileImageWrapper{
-    /* padding: 2rem; */
-    text-align: center;
-    /* border: 2px solid blue; */
-    /* border-radius: 3px solid blue; */
+    text-align: center;    
 }
 
 .profileImage{
     border-radius: 50%;
-    /* border-width: 5px solid blue; */
+    width: 300px;
+    height: 300px;
 }
 
-
-.professionalSkills{
-
-}
 
 .educationBackground{
 
 }
 
 
+@media print{
 
+    @page{
+        size: A4 potrait;
+    }
+
+    @page: left{
+        margin: 10cm;
+    }
+
+    @page: right{
+        margin: 1cm;
+    }
+
+    .titleBar{
+        display: none;
+    }
+
+    .resumeContent{
+        position: relative;
+        z-index: 1024;
+        display: grid;
+        grid-template-columns: 3fr 4fr;
+    }
+
+    .profileImageWrapper{
+        text-align: inherit;
+    }
+
+    .profileImage{
+        border: 5px solid goldenrod;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+    }
+
+    .resumeContainer{
+        border: none;
+    }
+
+    .resumeLeftContent{
+        /* text-align: center; */
+        padding: 12pt 12pt;
+    }
+    
+    .resumeRightContent{
+        padding: 200px 2rem 4rem 2rem;
+    }
+}
 
 

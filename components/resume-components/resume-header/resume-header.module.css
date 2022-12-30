@@ -1,0 +1,34 @@
+.resumeHeader{
+    padding: 3rem 2rem;
+    background-color: blue;
+    text-align: right;
+    color: white;;
+}
+
+.title{
+    font-size: 4rem;
+}
+
+.subTitle{
+    font-size: 2rem;
+}
+
+@media print{
+    .resumeHeader{
+        padding: 30pt 30pt;
+        background-color: gray;
+        text-align: right;
+        color: blue;;
+    }
+
+    .title{
+        font-size: 30pt;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-shadow: 2pt 2pt goldenrod;
+    }
+
+    .subTitle{
+        font-size: 16pt;
+    }
+}

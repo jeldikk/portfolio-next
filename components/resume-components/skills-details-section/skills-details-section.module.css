@@ -9,3 +9,13 @@
 .skillsList li{
     margin: 0.75rem 0;
 }
+
+@media print{
+    .skillsList{
+        font-size: 10pt;
+    }
+
+    .skillsList li{
+        margin: 2pt 0;
+    }
+}

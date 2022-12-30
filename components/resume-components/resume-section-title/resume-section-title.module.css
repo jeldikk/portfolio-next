@@ -15,3 +15,21 @@
     border-width: 3px;
     opacity: 0.8;
 }
+
+@media print{
+
+    .resumeSectionTitle{
+        font-size: 10pt;
+        padding: 0;
+    }
+
+    .title{
+        font-size: 14pt;
+        color: 'red';
+    }
+
+    .bottomLine{
+        border-width: 2px;
+        opacity: 1;
+    }
+}
