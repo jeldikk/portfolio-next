@@ -3,7 +3,7 @@ import ResumeSectionTitle from "../resume-section-title/resume-section-title.com
 import ContactDetail from "../contact-detail/contact-detail.component";
 
 import { AiFillMail } from "react-icons/ai";
-import { BsPhoneFill, BsGlobe } from "react-icons/bs";
+import { BsPhoneFill, BsGlobe, BsGithub } from "react-icons/bs";
 import { ImLocation } from "react-icons/im";
 
 function ContactDetailsSection() {
@@ -12,16 +12,19 @@ function ContactDetailsSection() {
       <ResumeSectionTitle title="Contact Me" />
       <div className={styles.contactDetails}>
         <ContactDetail value="jeldi.kamal2011@gmail.com">
-          <AiFillMail size={30} style={{ margin: "5px" }} />
+          <AiFillMail className={styles.contactIcon} />
         </ContactDetail>
         <ContactDetail value="+91 8500869685">
-          <BsPhoneFill size={30} style={{ margin: "5px" }} />
+          <BsPhoneFill className={styles.contactIcon} />
         </ContactDetail>
         <ContactDetail value="Chuttu Gunta, Guntur, India">
-          <ImLocation size={30} style={{ margin: "5px" }} />
+          <ImLocation className={styles.contactIcon} />
         </ContactDetail>
         <ContactDetail value="www.iamkamal.fyi">
-          <BsGlobe size={30} style={{ margin: "5px" }} />
+          <BsGlobe className={styles.contactIcon} />
+        </ContactDetail>
+        <ContactDetail value="www.github.com/jeldikk">
+          <BsGithub className={styles.contactIcon} />
         </ContactDetail>
       </div>
     </div>

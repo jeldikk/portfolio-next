@@ -6,6 +6,7 @@ import ResumeSectionTitle from "../components/resume-components/resume-section-t
 import ContactDetailsSection from "../components/resume-components/contact-details-section/contact-details-section.component";
 import SkillsDetailsSection from "../components/resume-components/skills-details-section/skills-details-section.component";
 import ResumeHeader from "../components/resume-components/resume-header/resume-header.component";
+import { BsFillPrinterFill } from "react-icons/bs";
 
 function ResumePage() {
   const printDocument = () => {
@@ -24,7 +25,7 @@ function ResumePage() {
             className="btn btn-primary btn-sm"
             onClick={printDocument}
           >
-            <i className="bi bi-cloud-download-fill"></i> Save To Disk
+            <BsFillPrinterFill size={20} /> Save To Disk
           </button>
         </div>
         <div className={styles.resumeContainer}>
