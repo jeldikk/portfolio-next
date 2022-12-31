@@ -1,5 +1,5 @@
 .professionalSkills{
-
+    
 }
 
 .skillsList{
@@ -11,6 +11,9 @@
 }
 
 @media print{
+    .professionalSkills{
+        margin-top: 12pt;
+    }
     .skillsList{
         font-size: 10pt;
     }

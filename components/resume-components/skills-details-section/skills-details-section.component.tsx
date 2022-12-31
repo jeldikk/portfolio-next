@@ -7,7 +7,7 @@ function SkillsDetailsSection() {
       <ResumeSectionTitle title="Skills" />
       <ul className={styles.skillsList}>
         <li>Design & Develop Responsive Screens</li>
-        <li>Modernization of older screens</li>
+        <li>Modernization of Older Screens</li>
         <li>Interactive Data Visualisations</li>
         <li>Skilled in Developing Onboarding Screens</li>
         <li>Data Extraction & Analysis</li>

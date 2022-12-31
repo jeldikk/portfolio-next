@@ -1,0 +1,27 @@
+.skillsTiles{
+    background-color: gold;
+    padding: 1rem 4rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.skillIcon{
+    margin: 0 3px;
+    font-size: 3rem;
+}
+
+@media print{
+
+    .skillsTiles{
+        padding: 5pt 20pt;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .skillIcon{
+        margin: 0 3px;
+        font-size: 20pt;
+        color: blue;
+    }
+
+}
