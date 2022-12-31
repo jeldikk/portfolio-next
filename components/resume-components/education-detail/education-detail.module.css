@@ -1,0 +1,51 @@
+.educationDetail{
+    padding: 0.5rem 0.25rem;
+}
+
+.yearRange{
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: red;
+}
+
+.degree{
+    text-transform: capitalize;
+    font-size: 0.75rem;
+    font-style: italic;
+}
+
+.specialization{
+    font-style: italic;
+}
+
+.institute{
+    font-size: 1.25rem;
+}
+
+
+@media print{
+
+    .educationDetail{
+        padding: 0.25rem 0.15rem;
+    }
+
+    .yearRange{
+        font-size: 13pt;
+        font-weight: bold;
+        color: blue;
+    }
+
+    .degree{
+        text-transform: capitalize;
+        font-size: 8pt;
+        font-style: italic;
+    }
+
+    .specialization{
+        font-size: 10pt;;
+    }
+
+    .institute{
+        font-size: 12pt;
+    }
+}

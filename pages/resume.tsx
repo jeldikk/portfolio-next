@@ -7,6 +7,8 @@ import ContactDetailsSection from "../components/resume-components/contact-detai
 import SkillsDetailsSection from "../components/resume-components/skills-details-section/skills-details-section.component";
 import ResumeHeader from "../components/resume-components/resume-header/resume-header.component";
 import { BsFillPrinterFill } from "react-icons/bs";
+import EducationBackgroundDetails from "../components/resume-components/education-background-details/education-background-details.component";
+import SkillsTiles from "../components/resume-components/skills-tiles/skills-tiles.component";
 
 function ResumePage() {
   const printDocument = () => {
@@ -44,9 +46,7 @@ function ResumePage() {
                 </div>
                 <ContactDetailsSection />
                 <SkillsDetailsSection />
-                <div className={styles.educationBackground}>
-                  <ResumeSectionTitle title="Education Background" />
-                </div>
+                <EducationBackgroundDetails />
               </div>
               <div className={styles.resumeRightContent}>
                 <div className={styles.aboutSection}>
@@ -60,6 +60,7 @@ function ResumePage() {
                 </div>
               </div>
             </div>
+            <SkillsTiles />
           </div>
         </div>
       </div>
