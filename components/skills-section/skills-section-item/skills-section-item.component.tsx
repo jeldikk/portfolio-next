@@ -1,5 +1,6 @@
 import styles from "./skills-section-item.module.css";
 import Image from "next/image";
+import StarRatings from "react-star-ratings";
 import { SkillsSectionItem } from "../../../models/skills-section.model";
 
 interface ISkillsSectionItemProps {
@@ -23,7 +24,15 @@ function SkillsSectionItemComponent({ item }: ISkillsSectionItemProps) {
       </div>
       <ul className="list-group list-group-flush text-end">
         <li className="list-group-item">{item.experience}</li>
-        <li className="list-group-item">{item.rating}</li>
+        <li className="list-group-item">
+          <StarRatings
+            rating={item.rating}
+            starRatedColor="blue"
+            numberOfStars={5}
+            starDimension="30px"
+            starSpacing="2px"
+          />
+        </li>
         {/* <li className="list-group-item">isActive</li> */}
       </ul>
     </div>
