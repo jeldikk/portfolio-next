@@ -1,10 +1,43 @@
 .container{
+
+    --spike-height: 2rem;
+    --spike-width: 100px;
+    --body-bg: white;
+    
+    position: relative;
     width: 100%;
     padding: 1rem 0rem;
-    background-color: rgb(8, 255, 165);
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}    
+    background: linear-gradient(to bottom, #fdc830, #f37335);
+    padding: 5rem 0rem;
+}
+
+
+/*
+    All of the below content is inspired from kevin powell's : 
+    title: 'Spice up your site | Easy waves, angles, & other creative shapes with CSS
+*/
+
+.container::before,
+.container::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: var(--spike-height);
+    background-color: var(--body-bg);
+
+    mask-image: url("../../public/assets/spike-path.svg");
+    mask-size: var(--spike-width) 100%;
+    
+}
+
+.container::before{
+    top: 0;
+}
+
+.container::after{
+    bottom: 0;
+    transform: rotate(0.5turn);
+}
 
 .title{
     margin: 4rem 1rem;

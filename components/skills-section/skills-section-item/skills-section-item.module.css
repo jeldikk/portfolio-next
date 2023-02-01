@@ -1,12 +1,12 @@
 .skillsSectionItem{
     margin: 0.5rem auto;
-    box-shadow: 5px 5px #87FF98;
+    /* box-shadow: 5px 5px #87FF98; */
 }
 
 .imageContainer{
     position: relative;
     height: 200px;
-    border: 0.5px solid black;
+    /* border: 0.5px solid black; */
 }
 
 .skillsImage{
