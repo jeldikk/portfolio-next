@@ -1,6 +1,6 @@
 .container{
 
-    --spike-height: 2rem;
+    --spike-height: 200px;
     --spike-width: 100px;
     --body-bg: white;
     
@@ -17,25 +17,21 @@
     title: 'Spice up your site | Easy waves, angles, & other creative shapes with CSS
 */
 
-.container::before,
-.container::after{
+.container::before{
     content: '';
     position: absolute;
     width: 100%;
     height: var(--spike-height);
     background-color: var(--body-bg);
 
-    mask-image: url("../../public/assets/spike-path.svg");
-    mask-size: var(--spike-width) 100%;
+    mask-image: url("../../public/assets/wave-path.svg");
+    /* mask-size: var(--spike-width) 100%; */
     
 }
 
 .container::before{
     top: 0;
-}
-
-.container::after{
-    bottom: 0;
+    
     transform: rotate(0.5turn);
 }
 
