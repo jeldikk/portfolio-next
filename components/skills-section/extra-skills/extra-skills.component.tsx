@@ -7,6 +7,7 @@ import {
   SiElectron,
   SiMongodb,
   SiDocker,
+  SiRedux,
 } from "react-icons/si";
 
 const ITEM_SIZE = 100;
@@ -26,6 +27,12 @@ function ExtraSkills() {
           <SiFirebase
             size={ITEM_SIZE}
             title="Firebase: Google's unique way to develop mobile and web apps seamless"
+          />
+        </span>
+        <span>
+          <SiRedux
+            size={ITEM_SIZE}
+            title="Redux: A Predictable state management system for react based applications"
           />
         </span>
         <span>
