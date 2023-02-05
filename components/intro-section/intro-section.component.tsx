@@ -10,7 +10,7 @@ function IntroductionSection() {
       <div className="container my-3">
         <div className="row">
           <div className="col-md-4">
-            <figure className="figure">
+            <figure className={`figure ${styles.imageWrapper}`}>
               <Image
                 className={`figure-img img-fluid rounded ${styles.leftImage}`}
                 src={spiderWeb}
