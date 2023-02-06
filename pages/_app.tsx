@@ -16,11 +16,11 @@ export default function App({ Component, pageProps }: AppProps) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <>
-        <div className="alert alert-danger text-center">
+        {/* <div className="alert alert-danger text-center">
           The website is under development. I am working on screen design and
           implementation during the spare time. Pushing myself to complete the
           site as soon as possible.
-        </div>
+        </div> */}
         <Component {...pageProps} />
       </>
     </Layout>
