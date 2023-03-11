@@ -2,6 +2,8 @@ import mongoose from "mongoose";
 
 let cached: { conn: any; promise: any } = { conn: null, promise: null };
 
+console.log({ env: process.env });
+
 if (!process.env.MONGODB_URL) {
   throw new Error("MONGO URL is not defined in enviroment. Define one in url");
 }
