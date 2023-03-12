@@ -10,6 +10,7 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
         const projects = await Project.find({});
         res.status(200).json({
           status: "success",
+          totalItems: projects.length,
           data: projects,
         });
       } catch (error: any) {
