@@ -1,10 +1,14 @@
 import { useEffect } from "react";
-import { GetStaticProps, InferGetStaticPropsType } from "next";
+import {
+  GetServerSideProps,
+  InferGetServerSidePropsType,
+  InferGetStaticPropsType,
+} from "next";
 import Head from "next/head";
 import { IProject } from "../models/project.model";
 import { createProjectsUrl } from "../urls/urls";
 
-export const getStaticProps: GetStaticProps<{
+export const getServerSideProps: GetServerSideProps<{
   projects: IProject[];
 }> = async () => {
   const fetchUrl = createProjectsUrl();
@@ -20,7 +24,7 @@ export const getStaticProps: GetStaticProps<{
 
 function ProjectsPage({
   projects,
-}: InferGetStaticPropsType<typeof getStaticProps>) {
+}: InferGetServerSidePropsType<typeof getServerSideProps>) {
   useEffect(() => {
     console.log({ projects });
   }, []);
