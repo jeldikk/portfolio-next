@@ -6,9 +6,22 @@
     flex-wrap: wrap;
 }
 
-.extraSkills span{
-    padding: 0.15rem;
-    margin-left: 1rem;
-    border: 1px solid black;
-    border-radius: 5px;
+.icon{
+    font-size: 60px;
+    margin: 0.25rem 1rem;
+}
+
+/* Here goes the media queries */
+
+@media screen and (max-width: 576px){
+
+    .extraSkills span{
+        margin: 0.5rem 1rem;
+        font-size: 20px;
+    }
+
+    .icon{
+        font-size: 60px;
+        margin: 0.25rem 1rem;
+    }
 }
