@@ -20,3 +20,14 @@
 .imageWrapper{
     clip-path: polygon(0% 0%, 100% 0%, 70% 50%, 100% 100%, 0% 100%);
 }
+
+/* Here goes the media queries */
+
+@media screen and (max-width: 576px){
+    .title{
+        font-size: 3rem;
+    }
+    .leftImage{
+        height: 300px;
+    }
+}

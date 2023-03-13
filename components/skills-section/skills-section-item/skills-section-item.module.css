@@ -13,3 +13,15 @@
     width: 100%;
     border-radius: inherit;
 }
+
+/* here goes the media queries */
+
+@media screen and (max-width: 576px){
+    .skillsSectionItem{
+        margin: 1rem 2rem;
+    }
+
+    .imageContainer{
+        display: none;
+    }
+}

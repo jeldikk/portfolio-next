@@ -15,3 +15,14 @@
     cursor: default;
     transform: scale(1.25);
 }
+
+@media screen and (max-width: 576px) {
+    .nameLetter{
+        font-size: 3rem
+    }
+
+    .nameLetter:hover{
+        cursor: default;
+        transform: scale(1.5);
+    }
+}

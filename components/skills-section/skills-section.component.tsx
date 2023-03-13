@@ -95,13 +95,6 @@ function SkillsSection() {
           ))}
         </div>
         <ExtraSkills />
-        {/* <button
-          type="button"
-          className="btn btn-primary"
-          onClick={navigateToSkillsPage}
-        >
-          Click To Know More ...
-        </button> */}
       </div>
     </section>
   );

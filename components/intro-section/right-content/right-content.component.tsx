@@ -17,11 +17,12 @@ function RightIntroductionContent() {
           Frontend Frameworks for developing web applications. I also use
           Electron Framework to develop Desktop Applications & Mobile
           applications using Expo Powered React Native Framework.
+          <br />
           <br />I am aspiring to become a full stack cloud native developer.
         </p>
         <p className={styles.jobExpectations}>
-          Apart from this, I also like travelling places( with in India ) and
-          experience new forms of life.
+          Apart from this, I also like travelling places and experience new
+          forms of life.
         </p>
       </div>
       <SocialMediaLinks />

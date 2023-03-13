@@ -23,3 +23,24 @@
     text-align: center;
     line-height: 2.5rem;
 }
+
+/* Here we write media queries */
+@media screen and (max-width: 576px){
+
+    .experience{
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+    }
+
+    .totalExperience{
+        line-height: inherit;
+    }
+
+    .frontendExperience{
+        line-height: inherit;
+    }
+
+    .jobExpectations{
+        line-height: inherit;
+    }
+}

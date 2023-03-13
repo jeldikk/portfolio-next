@@ -28,3 +28,16 @@
     justify-content: center;
     align-items: center;
 }
+
+/* here goes the media queries for small screens */
+@media screen and (max-width: 576px){
+
+    .container{
+        clip-path: polygon(0% 0%, 100% 0%, 100% calc(100vh - 10%), 50% 100%, 0% calc(100vh - 10%));
+    }
+
+    .textContentContainer{
+        display: block;
+        margin-top: 2rem;
+    }
+}

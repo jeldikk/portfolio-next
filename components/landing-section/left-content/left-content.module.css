@@ -27,3 +27,18 @@
 }
 
 /* here goes styles for Name font */
+
+/* here goes the media queries */
+@media screen and (max-width: 576px){
+    .avatarImage{
+        width: 200px;
+        height: 200px;
+        border-width: 5px;
+    }
+
+    .description{
+        margin-top: 0.5rem;
+        font-size: 1rem;
+        padding: 1rem;
+    }
+}

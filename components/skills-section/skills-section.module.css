@@ -1,12 +1,12 @@
 .container{
 
-    --spike-height: 200px;
+    --big-screen-spike-height: 200px;
+    --small-screen-spike-height: 20px;
     --spike-width: 100px;
     --body-bg: white;
     
     position: relative;
     width: 100%;
-    padding: 1rem 0rem;
     background: linear-gradient(to bottom, #fdc830, #f37335);
     padding: 5rem 0rem;
 }
@@ -21,17 +21,14 @@
     content: '';
     position: absolute;
     width: 100%;
-    height: var(--spike-height);
+    height: var(--big-screen-spike-height);
     background-color: var(--body-bg);
-
     mask-image: url("../../public/assets/wave-path.svg");
-    /* mask-size: var(--spike-width) 100%; */
     
 }
 
 .container::before{
     top: 0;
-    
     transform: rotate(0.5turn);
 }
 
@@ -40,4 +37,17 @@
     text-align: center;
 }
 
+/* Here goes the media queries */
 
+@media screen and (max-width: 576px){
+    .container{
+        padding: 2rem 0;
+    }
+    .container::before{
+        height: var(--small-screen-spike-height);
+        mask-image: url("../../public/assets/spike-path.svg");
+        mask-size: var(--spike-width) 100%;
+        top: 0;
+        transform: rotate(0)
+    }
+}
