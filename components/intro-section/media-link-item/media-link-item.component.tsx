@@ -7,9 +7,9 @@ interface IMediaLinkItemProps {
 
 function MediaLinkItem({ item }: IMediaLinkItemProps) {
   return (
-    <div className={styles.container} title={item.label}>
+    <a className={styles.container} title={item.label} href={item.url}>
       {item.icon}
-    </div>
+    </a>
   );
 }
 
