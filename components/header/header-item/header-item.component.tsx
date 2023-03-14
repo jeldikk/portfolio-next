@@ -1,6 +1,7 @@
+import styles from "./header-item.module.css";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { IHeaderItem } from "../../models/header.model";
+import { IHeaderItem } from "../../../models/header.model";
 
 interface HeaderItemProps {
   item: IHeaderItem;
@@ -9,9 +10,11 @@ interface HeaderItemProps {
 function HeaderItem({ item }: HeaderItemProps) {
   const { pathname } = useRouter();
   return (
-    <li className="nav-item mx-5">
+    <li className={`nav-item ${styles.headerItem}`}>
       <Link
-        className={`nav-link ${pathname === item.pathname ? "active" : null}`}
+        className={`nav-link ${
+          pathname === item.pathname ? styles.active : ""
+        }`}
         href={item.pathname}
       >
         {item.label}

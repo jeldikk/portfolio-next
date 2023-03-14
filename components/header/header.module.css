@@ -5,9 +5,20 @@
     z-index: 2048;
 }
 
+.headerContainer{
+    justify-content: center;
+}
+
 .ribbon{
     height: 5px;
     background-color: brown;
+}
+
+.navItems{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-bottom: 0;
 }
 
 @media print{

@@ -1,0 +1,15 @@
+.headerItem{
+    margin: 0px 2rem;
+}
+
+.active{
+    font-weight: bold;
+}
+
+/* here goes the media queries */
+@media screen and (max-width: 576px){
+    .headerItem{
+        font-size: 0.75rem;
+        margin: 0 0.75rem;
+    }
+}
