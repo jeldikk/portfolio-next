@@ -15,8 +15,8 @@ function ProfessionalExperienceItem({ detail }: IProfessionalExperienceProps) {
         {detail.from} - {detail.to}
       </div>
       <ul className={styles.responsiblities}>
-        {detail.responsibilities.map((responsibility) => (
-          <li>{responsibility}</li>
+        {detail.responsibilities.map((responsibility, index) => (
+          <li key={index}>{responsibility}</li>
         ))}
       </ul>
     </div>

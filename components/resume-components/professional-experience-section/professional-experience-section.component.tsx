@@ -44,7 +44,7 @@ function ProfessionalExperienceSection() {
   return (
     <div className={styles.professionalExperienceSection}>
       {professionalExperiences.map((exp) => (
-        <ProfessionalExperienceItem detail={exp} />
+        <ProfessionalExperienceItem key={exp.company} detail={exp} />
       ))}
     </div>
   );

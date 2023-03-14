@@ -11,7 +11,6 @@ function PapersPublicationsSection() {
           Published in AGU Radioscience{" "}
           <a
             className="btn btn-link"
-            target="_blank"
             href="https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2019RS006883"
           >
             <BsShare />
@@ -22,8 +21,7 @@ function PapersPublicationsSection() {
           <span title="International Radar Symposium">IRSI</span>
           <a
             className="btn btn-link"
-            target="_blank"
-            href="https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2019RS006883"
+            href="http://radarindia.com/Proceedings%20Archive/IRSI-17/050.pdf"
           >
             <BsShare />
           </a>
