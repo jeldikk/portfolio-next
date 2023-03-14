@@ -3,11 +3,12 @@
 }
 
 .skillsList{
-    font-size: 1.25rem;
+    font-size: 0.9rem;
+    padding-left: 1rem;
 }
 
 .skillsList li{
-    margin: 0.75rem 0;
+    margin: 0.25rem 0;
 }
 
 @media print{

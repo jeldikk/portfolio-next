@@ -1,0 +1,12 @@
+.papersPublications{
+
+}
+
+.publicationsList{
+    /* margin-left: ; */
+    padding-left: 1rem;
+}
+
+.publicationsList li{
+    font-size: 0.9rem;
+}

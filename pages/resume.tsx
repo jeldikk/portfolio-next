@@ -9,6 +9,9 @@ import ResumeHeader from "../components/resume-components/resume-header/resume-h
 import { BsFillPrinterFill } from "react-icons/bs";
 import EducationBackgroundDetails from "../components/resume-components/education-background-details/education-background-details.component";
 import SkillsTiles from "../components/resume-components/skills-tiles/skills-tiles.component";
+import ProfessionalExperienceSection from "../components/resume-components/professional-experience-section/professional-experience-section.component";
+import AboutSection from "../components/resume-components/about-section/about-section.component";
+import PapersPublicationsSection from "../components/resume-components/papers-publications-section/papers-publications-section.components";
 
 function ResumePage() {
   const printDocument = () => {
@@ -46,14 +49,17 @@ function ResumePage() {
                 </div>
                 <ContactDetailsSection />
                 <SkillsDetailsSection />
+                <PapersPublicationsSection />
                 <EducationBackgroundDetails />
               </div>
               <div className={styles.resumeRightContent}>
                 <div className={styles.aboutSection}>
                   <ResumeSectionTitle title="About Me" />
+                  <AboutSection />
                 </div>
                 <div className={styles.professionalExperience}>
                   <ResumeSectionTitle title="Professional Experience" />
+                  <ProfessionalExperienceSection />
                 </div>
                 <div className={styles.notableProjects}>
                   <ResumeSectionTitle title="Notable Projects" />
